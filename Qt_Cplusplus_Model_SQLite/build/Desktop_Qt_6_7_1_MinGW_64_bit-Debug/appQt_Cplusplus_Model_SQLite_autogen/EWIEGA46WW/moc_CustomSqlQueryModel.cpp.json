@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "CustomSqlQueryModel",
+            "object": true,
+            "qualifiedClassName": "CustomSqlQueryModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlQueryModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CustomSqlQueryModel.h",
+    "outputRevision": 68
+}

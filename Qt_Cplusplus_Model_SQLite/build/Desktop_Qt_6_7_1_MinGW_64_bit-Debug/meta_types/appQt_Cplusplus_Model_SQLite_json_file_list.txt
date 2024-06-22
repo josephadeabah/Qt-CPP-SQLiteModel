@@ -1,0 +1,2 @@
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/appQt_Cplusplus_Model_SQLite_autogen/include/../EWIEGA46WW/moc_CustomSqlQueryModel.cpp.json
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/appQt_Cplusplus_Model_SQLite_autogen/include/../EWIEGA46WW/moc_DatabaseManager.cpp.json

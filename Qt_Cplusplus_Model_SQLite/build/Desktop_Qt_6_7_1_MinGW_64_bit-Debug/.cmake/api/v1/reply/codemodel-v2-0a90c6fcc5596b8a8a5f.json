@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2dc4c6101016c7a0d99a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Qt_Cplusplus_Model_SQLite",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-29b8a514aa1f5eabde80.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f97190d175e234890b76.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-0490723128a50d57eb26.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-54674a958cdf721bd563.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite-Debug-3bdd35a5aaa46e5173a9.json",
+					"name" : "appQt_Cplusplus_Model_SQLite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_autogen-Debug-9c115e3ff99d5ecccf2a.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_autogen_timestamp_deps-Debug-72b2944243c68adddc34.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_qmlimportscan-Debug-75c59c84b9fb2f6b1dab.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_qmllint-Debug-1c1b880ca2a0099a5bbc.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_qmllint_json-Debug-4f4c2e49bbb91d52d602.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_qmllint_module-Debug-7599d28a679cca201cc6.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_qmltyperegistration-Debug-0fac2081e04a88a89273.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQt_Cplusplus_Model_SQLite_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQt_Cplusplus_Model_SQLite_tooling-Debug-c92e37d368aaf319c967.json",
+					"name" : "appQt_Cplusplus_Model_SQLite_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

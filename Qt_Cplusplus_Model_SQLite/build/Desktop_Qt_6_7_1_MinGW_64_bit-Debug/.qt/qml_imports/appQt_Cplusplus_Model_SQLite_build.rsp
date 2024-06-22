@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite
+-cmake-output
+-output-file
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/qml_imports/appQt_Cplusplus_Model_SQLite_build.cmake
+-importPath
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Qt_Cplusplus_Model_SQLite
+-importPath
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.7.1/mingw_64/./qml
+-qrcFiles
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Qt_Cplusplus_Model_SQLite.qrc
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/appQt_Cplusplus_Model_SQLite_raw_qml_0.qrc

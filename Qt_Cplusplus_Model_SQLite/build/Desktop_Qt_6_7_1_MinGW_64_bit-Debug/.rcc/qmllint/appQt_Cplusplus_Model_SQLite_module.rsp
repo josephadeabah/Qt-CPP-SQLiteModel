@@ -1,0 +1,10 @@
+-I
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.1/mingw_64/./qml
+--resource
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Qt_Cplusplus_Model_SQLite.qrc
+--resource
+C:/Users/JosephAdeabah/Documents/GitHub/Qt-CPP-SQLiteModel/Qt_Cplusplus_Model_SQLite/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/appQt_Cplusplus_Model_SQLite_raw_qml_0.qrc
+--module
+Qt_Cplusplus_Model_SQLite

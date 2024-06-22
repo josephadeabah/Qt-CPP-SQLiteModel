@@ -1,0 +1,36 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CustomSqlQueryModel",
+                "object": true,
+                "qualifiedClassName": "CustomSqlQueryModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CustomSqlQueryModel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "DatabaseManager",
+                "object": true,
+                "qualifiedClassName": "DatabaseManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "DatabaseManager.h",
+        "outputRevision": 68
+    }
+]
