@@ -16,12 +16,11 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    CustomSqlQueryModel *model = dbManager.getQueryModel("SELECT ids, name FROM people");
+    CustomSqlQueryModel *model = dbManager.getQueryModel("SELECT ids, name, profession FROM people");
     if (!model) {
         qDebug() << "Failed to retrieve data model!";
         return -1;
     }
-
 
     QObject::connect(
         &engine,

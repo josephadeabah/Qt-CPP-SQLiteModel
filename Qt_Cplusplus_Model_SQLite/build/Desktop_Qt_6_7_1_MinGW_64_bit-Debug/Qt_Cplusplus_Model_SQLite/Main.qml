@@ -50,6 +50,14 @@ ApplicationWindow {
                         font.pixelSize: 20
                         verticalAlignment: Text.AlignVCenter
                     }
+
+                    Text {
+                        text: model.profession
+                        width: 200
+                        color: "#333333"
+                        font.pixelSize: 20
+                        verticalAlignment: Text.AlignVCenter
+                    }
                 }
             }
         }

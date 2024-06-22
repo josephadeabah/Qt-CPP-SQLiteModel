@@ -29,6 +29,7 @@ CustomSqlQueryModel* DatabaseManager::getQueryModel(const QString &queryStr) {
 
     model->setHeaderData(0, Qt::Horizontal, "ids");
     model->setHeaderData(1, Qt::Horizontal, "name");
+    model->setHeaderData(2, Qt::Horizontal, "profession");
 
     return model;
 }

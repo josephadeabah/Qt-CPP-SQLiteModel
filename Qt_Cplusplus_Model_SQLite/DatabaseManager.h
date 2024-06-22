@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QSqlDatabase>
-#include "CustomSqlQueryModel.h"  // Include the custom model header
+#include "CustomSqlQueryModel.h"
 
 class DatabaseManager : public QObject
 {
