@@ -1,63 +1,120 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import Qt.labs.qmlmodels
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 1.15
+import Qt.labs.qmlmodels 1.15
 
 ApplicationWindow {
     visible: true
     width: 800
     height: 600
-    title: "SQLite Data Viewer"
+    title: "App"
 
-    Rectangle {
+    footer: TabBar {
+        id: bar
+        onCurrentIndexChanged: stackLayout.currentIndex = currentIndex
+        TabButton {
+            text: qsTr("Home")
+        }
+        TabButton {
+            text: qsTr("Discover")
+        }
+        TabButton {
+            text: qsTr("Activity")
+        }
+    }
+
+    StackLayout {
+        id: stackLayout
         width: parent.width
         height: parent.height
-        color: "#f0f0f0"
+        currentIndex: bar.currentIndex
 
-        ListView {
-            width: parent.width
-            height: parent.height
-            clip: true
-            model: sqlModel
-            spacing: 5
-            anchors.margins: 10
+        Item {
+            id: homeTab
+            Rectangle {
+                color: "teal"
+                anchors.fill: parent
 
-            delegate: Rectangle {
-                width: ListView.view.width - 20
-                height: 60
-                color: index % 2 === 0 ? "#ffffff" : "#e0e0e0"
-                border.color: "#d0d0d0"
-                border.width: 1
-                radius: 5
-
-                RowLayout {
+                ColumnLayout {
+                    anchors.fill: parent
                     spacing: 10
-                    anchors.verticalCenter: parent.verticalCenter
                     anchors.margins: 10
 
-                    Text {
-                        text: model.ids
-                        width: 50
-                        color: "#333333"
-                        font.pixelSize: 20
-                        verticalAlignment: Text.AlignVCenter
-                    }
+                    ListView {
+                        width: parent.width
+                        height: parent.height
+                        clip: true
+                        model: sqlModel
+                        spacing: 5
 
-                    Text {
-                        text: model.name
-                        width: 200
-                        color: "#333333"
-                        font.pixelSize: 20
-                        verticalAlignment: Text.AlignVCenter
-                    }
+                        delegate: Rectangle {
+                            width: ListView.view.width - 20
+                            height: 60
+                            color: index % 2 === 0 ? "#ffffff" : "#e0e0e0"
+                            border.color: "#d0d0d0"
+                            border.width: 1
+                            radius: 5
+                            Layout.fillWidth: true
 
-                    Text {
-                        text: model.profession
-                        width: 200
-                        color: "#333333"
-                        font.pixelSize: 20
-                        verticalAlignment: Text.AlignVCenter
+                            RowLayout {
+                                anchors.fill: parent
+                                anchors.margins: 10
+                                spacing: 10
+
+                                Text {
+                                    text: model.ids
+                                    font.pixelSize: 20
+                                    color: "#333333"
+                                    horizontalAlignment: Text.AlignHCenter
+                                    verticalAlignment: Text.AlignVCenter
+                                }
+
+                                Text {
+                                    text: model.name
+                                    font.pixelSize: 20
+                                    color: "#333333"
+                                    horizontalAlignment: Text.AlignHCenter
+                                    verticalAlignment: Text.AlignVCenter
+                                }
+
+                                Text {
+                                    text: model.profession
+                                    font.pixelSize: 20
+                                    color: "#333333"
+                                    horizontalAlignment: Text.AlignHCenter
+                                    verticalAlignment: Text.AlignVCenter
+                                }
+                            }
+                        }
                     }
+                }
+            }
+        }
+
+        Item {
+            id: discoverTab
+            Rectangle {
+                color: "orange"
+                anchors.fill: parent
+                Text {
+                    anchors.centerIn: parent
+                    text: "Discover Tab"
+                    font.pixelSize: 30
+                    color: "white"
+                }
+            }
+        }
+
+        Item {
+            id: activityTab
+            Rectangle {
+                color: "plum"
+                anchors.fill: parent
+                Text {
+                    anchors.centerIn: parent
+                    text: "Activity Tab"
+                    font.pixelSize: 30
+                    color: "white"
                 }
             }
         }

@@ -3,10 +3,9 @@
 #include <QSqlError>
 #include <QDebug>
 
-CustomSqlQueryModel::CustomSqlQueryModel(QObject *parent) : QSqlQueryModel(parent){}
+CustomSqlQueryModel::CustomSqlQueryModel(QObject *parent) : QSqlQueryModel(parent) {}
 
-QVariant CustomSqlQueryModel::data(const QModelIndex &index, int role) const
-{
+QVariant CustomSqlQueryModel::data(const QModelIndex &index, int role) const {
     if (role < Qt::UserRole) {
         return QSqlQueryModel::data(index, role);
     } else {
@@ -16,8 +15,7 @@ QVariant CustomSqlQueryModel::data(const QModelIndex &index, int role) const
     }
 }
 
-QHash<int, QByteArray> CustomSqlQueryModel::roleNames() const
-{
+QHash<int, QByteArray> CustomSqlQueryModel::roleNames() const {
     QHash<int, QByteArray> roles;
     for (int i = 0; i < this->columnCount(); i++) {
         roles[Qt::UserRole + i] = this->headerData(i, Qt::Horizontal).toByteArray();
@@ -25,8 +23,7 @@ QHash<int, QByteArray> CustomSqlQueryModel::roleNames() const
     return roles;
 }
 
-bool CustomSqlQueryModel::setData(const QModelIndex &index, const QVariant &value, int role)
-{
+bool CustomSqlQueryModel::setData(const QModelIndex &index, const QVariant &value, int role) {
     if (role == Qt::EditRole) {
         int column = index.column();
         QString columnName = this->headerData(column, Qt::Horizontal).toString();
@@ -50,7 +47,6 @@ bool CustomSqlQueryModel::setData(const QModelIndex &index, const QVariant &valu
     return false;
 }
 
-Qt::ItemFlags CustomSqlQueryModel::flags(const QModelIndex &index) const
-{
+Qt::ItemFlags CustomSqlQueryModel::flags(const QModelIndex &index) const {
     return QSqlQueryModel::flags(index) | Qt::ItemIsEditable;
 }

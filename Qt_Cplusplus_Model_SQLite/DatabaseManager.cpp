@@ -14,6 +14,8 @@ bool DatabaseManager::connectToDatabase(const QString &dbName) {
         return false;
     }
 
+    qDebug() << "Database connection successful!";
+
     return true;
 }
 

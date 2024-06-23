@@ -1,7 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QSqlTableModel>
 #include "DatabaseManager.h"
 
 int main(int argc, char *argv[])
@@ -22,13 +21,14 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+    engine.rootContext()->setContextProperty("sqlModel", model);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.rootContext()->setContextProperty("sqlModel", model);
     engine.loadFromModule("Qt_Cplusplus_Model_SQLite", "Main");
 
     return app.exec();
